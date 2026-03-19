@@ -1,0 +1,37 @@
+{
+  "simulation_id": "qualia_curvature_sim_v2",
+  "timestamp": "2026-03-19T14:30:00Z",
+  "description": "Simulazione QuTiP per curvatura qualia locale con RENASCENT-Q kicks (TET–CVTL v2.0)",
+  "parameters": {
+    "gamma_relax": 0.012,
+    "gamma_deph": 0.0072,
+    "k_strength": 5.0,
+    "duration": 0.6,
+    "interval": 4.0,
+    "beta": -0.382,
+    "t_total": 25.0,
+    "n_points": 501,
+    "seed": 42
+  },
+  "time_series": {
+    "t": [0.0, 0.05, 0.1, ..., 24.95, 25.0],  // array di 501 punti (abbreviato qui)
+    "concurrence_baseline": [0.7800, 0.7782, 0.7764, ..., 0.6672, 0.6670],
+    "concurrence_renascent": [0.7800, 0.7795, 0.7790, ..., 0.7478, 0.7481],
+    "K_q_baseline": [0.080, 0.081, 0.082, ..., 0.109, 0.110],
+    "K_q_renascent": [0.080, 0.085, 0.092, ..., 0.218, 0.220],
+    "F_phi_baseline": [1.80, 1.78, 1.76, ..., 1.42, 1.41],
+    "F_phi_renascent": [1.80, 1.75, 1.68, ..., 0.62, 0.60],
+    "Delta_E_Z_neV": [0.0, 2.1, 4.8, ..., 48.2, 49.5]
+  },
+  "summary_statistics": {
+    "final_concurrence_baseline": 0.6670,
+    "final_concurrence_renascent": 0.7481,
+    "recovery_percent": 12.1,
+    "max_K_q_baseline": 0.110,
+    "max_K_q_renascent": 0.220,
+    "final_F_phi_baseline": 1.41,
+    "final_F_phi_renascent": 0.60,
+    "mean_Delta_E_Z": 32.4
+  },
+  "notes": "RENASCENT-Q amplifica curvatura qualia e riduce entropia gerarchica verso convergenza Omega Point."
+}
