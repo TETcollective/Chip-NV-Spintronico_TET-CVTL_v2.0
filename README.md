@@ -52,7 +52,7 @@ Evoluzione open-source del chip NV-spintronico TET–CVTL (da v1.0 su Zenodo DOI
 Vedi [LICENSE.md](LICENSE.md) o https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 **Come citare**  
-Soliman, S. (2026). Chip NV-Spintronico TET–CVTL v2.0: Braiding Retrocausale... [Preprint + Code]. GitHub. https://github.com/TETcollective/TET-CVTL_Chip-NV-Spintronic_v2.0 
+Soliman, S. (2026). Chip NV-Spintronico TET–CVTL v2.0: Braiding Retrocausale... [Preprint + Code]. GitHub. [https://github.com/TETcollective/TET-CVTL_Chip-NV-Spintronic_v2.0 ](https://github.com/TETcollective/Chip-NV-Spintronico_TET-CVTL_v2.0/tree/main)
 
 
 Zenodo v1.0 correlato: https://doi.org/10.5281/zenodo.18329587
